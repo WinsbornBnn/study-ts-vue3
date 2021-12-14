@@ -32,7 +32,6 @@
 </template>
 
 <script lang="ts">
-import '@/assets/css/style.css'
 import { defineComponent, reactive, toRefs, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 export default defineComponent({
@@ -57,7 +56,7 @@ export default defineComponent({
       state.isRegist = true
     }
     const goHome = () => {
-      router.push({ path: '/home' })
+      router.push({ path: '/video' })
     }
     return {
       ...toRefs(state),
@@ -68,6 +67,7 @@ export default defineComponent({
 })
 </script>
 <style lang='scss' scoped>
+@import '../../assets/css/style.css';
 .versions {
   position: absolute;
   left: 45%;
