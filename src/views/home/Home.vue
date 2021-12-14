@@ -3,6 +3,13 @@
     <img alt="Vue logo" src="@/assets/logo.png" />
     <h2>我的第一个TypeScript程序</h2>
     <h4>{{hello}}</h4>
+    <el-button>Default</el-button>
+    <el-button type="primary">Primary</el-button>
+    <el-button type="success">Success</el-button>
+    <el-button type="info">Info</el-button>
+    <el-button type="warning">Warning</el-button>
+    <el-button type="danger">Danger</el-button>
+    <el-button>中文</el-button>
   </div>
 </template>
 
@@ -38,4 +45,8 @@ export default defineComponent({
 })
 </script>
 <style lang='scss' scoped>
+
+h2{
+  color: aqua;
+}
 </style>
