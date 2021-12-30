@@ -23,12 +23,15 @@ console.log(hello)
  *7、void 用于标识方法返回值的类型，表示该方法没有返回值。
  *8、null表示对象值缺失，undefined用于初始化变量为一个未定义的值，never 是其它类型（包括 null 和 undefined）的子类型，代表从不会出现的值。
  */
+const arr: [number, string] = [1, '22']
+console.log(arr)
+
 const getColor = () => {
   return 0
 }
 enum list {
   a = getColor(),
-  b = 2,
+  b = 5,
   c
 }
 console.log(list.a)
@@ -36,9 +39,12 @@ console.log(list.b)
 console.log(list.c)
 //! TypeScript 变量声明
 // var [变量名] : [类型] = 值
-let name
+let name: undefined
 console.log(name)
 
+let num1: number | null | undefined
+// num1 = 123
+console.log(num1)
 export {
   hello
 }
