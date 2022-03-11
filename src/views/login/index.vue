@@ -75,7 +75,7 @@
       </div>
     </div>
     <div class="versions">
-      <span>Copyright &copy; 2021</span>
+      <span>Copyright &copy; 2022</span>
     </div>
   </div>
 </template>
